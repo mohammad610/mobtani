@@ -33,14 +33,7 @@
 				<span class="input-group">
 					<input type = "password" name = "password" id = "password" class="form-control">
 				</span><br>		
-				
-				<label for = "state">استان</label>			
-				<input name = "state" id = "state" class="form-control" required value = "<?php if( isset($row['state']) ) echo $row['state']; ?>">
-				<br>
-				<label for = "city">شهر</label>			
-				<input name = "city" id = "city" class="form-control" required value = "<?php if( isset($row['city']) ) echo $row['city']; ?>">
-				<br>
-				
+
 				<input type = "submit" name = "submit" value = "ویرایش" class= "btn btn-success">
 			</form>
 		</main>
